@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+     
+    <title>iframe concept</title>
+
+</head>
+
+<body height="2800">
+
+    <h1>Assignment2 - iframe and anchor tag concept</h1>
+
+    <!--Embedding image file in 2nd iframe.Therefore we use target=named frame attribute so in 2nd iframe we used name attribute with value "theChildFile" that same value is given here inside target-->
+
+    <p><a href="../images/img0.png" target="theChildFile">IMAGE FILE</a></p>
+
+    <!--Embedding another html file file from another folder and displaying it in 2nd iframe...so output of table.html is displayed in 2nd iframe...so we used target="theChildFile"-->
+
+    <p><a href="../table-assignment/table.html" target="theChildFile">OTHER HTML FILE</a></p>
+
+    <!--Embedding another html file which lies in same folder-->
+
+    <p><a href="../iframe-assignment/child.html">LINKing CHILD FILE</a></p>
+    
+    <!--Embedding youtube video ...iframe code copied from youtube-->
+
+    <iframe width="850" height="550" src="https://www.youtube.com/embed/tWDtAXhcAac" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br> <br>
+
+   <!--Another iframe to open the above given IMAGE FILE...when u open this entire code in browser initially img5 will be shown..but when u click above IMAGE FILE instead of img5, img0 will be displayed bcoz in that target="theChildFile"-->
+
+    <iframe src="../images/img5.jpeg" width="550" height="650" align="left" frameborder="0" name="theChildFile"></iframe>
+
+    <!--Embedding paragraph...in output <p> lies to right of <iframe> bcoz..the space after iframe will be filled with the content below it. Therefore <iframe> is in left & <p> is in right-->
+    <!--Also here even if <br> is used content lies right of <iframe> will not go down-->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam dolorum totam, minima blanditiis fuga obcaecati ratione magnam quas deserunt quaerat aliquam officia, optio quisquam molestiae! Illum repudiandae optio molestiae voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, aliquid sit. Nesciunt illum facere quibusdam deleniti. Praesentium tempore error accusamus laboriosam natus porro, delectus ab cumque pariatur! Impedit, ducimus necessitatibus!</p>
+
+</body>
+
+</html>
