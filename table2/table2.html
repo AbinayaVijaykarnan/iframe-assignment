@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>CCTV Plans</title>
+
+    <script src="https://kit.fontawesome.com/98be6a7515.js" crossorigin="anonymous"></script>
+   
+    <style>
+
+        body{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            background-color: black;
+        }
+        .main{
+            width:90%;
+            margin:5% auto;
+            padding: 30px;
+            background-color:rgba(0, 0, 0, 0.103);
+            border: 5px dashed white;
+            border-radius:20px ;
+        }
+
+
+        .box1{
+            width:20%;
+            padding:10px;
+            border:10px solid wheat;
+            border-radius:30px;
+            background-color:red; 
+            float:left;
+            margin:0 25px;
+        }
+
+        .box1 i{
+            background-color:rgba(255, 255, 255, 0.993);
+            color:red;
+            border-radius:100px;
+            font-size: 70px;
+            border:10px double black;
+            padding:0 10px;
+            margin:0 35%;
+        }
+
+        .box1 td,th{
+            padding:15px 10px; 
+        }
+        
+        .white{
+            background-color: white;
+        }
+        #red{
+            color:red;
+            font-size:30px;
+        }
+        #submit1{
+            background-color: red;
+            color: white;
+            border:5px solid black;
+            border-radius: 20px;
+            font-size:20px;
+            margin:2% 30%;
+            padding:10px 25px;
+           
+        }
+
+
+        .box2{
+            width:20%;
+            padding:10px;
+            border:10px solid wheat;
+            border-radius:30px;
+            background-color:green;
+            float:left;
+            margin:0 25px;
+        }
+
+        .box2 i{
+            background-color:rgba(255, 255, 255, 0.993);
+            color:green;
+            border-radius:40px;
+            font-size:70px;
+            border:10px double black;
+            padding:0 15px;
+            margin:0 35%;
+        }
+
+        .box2 td,th{
+            padding:15px 10px;
+        }
+        #green{
+            color:green;
+            font-size:30px;
+        }
+        #submit2{
+            background-color:green;
+            color: white;
+            border:5px solid black;
+            border-radius: 20px;
+            font-size:20px;
+            margin:2% 30%;
+            padding:10px 25px;
+           
+        }
+
+
+        .box3{
+            width:20%;
+            padding:10px;
+            border:10px solid wheat;
+            border-radius:30px;
+            background-color:rgb(235, 162, 26);
+            float:left;
+            margin:0 25px;
+        }
+
+        .box3 i{
+            background-color:rgba(255, 255, 255, 0.993);
+            color:orange;
+            font-size:70px;
+            border: 10px double black;
+            border-radius:40px;
+            padding:0 15px;
+            margin:0 35%;
+        }
+
+        .box3 td,th{
+            padding:15px 10px;
+            
+        }
+        #orange{
+            color:orange;
+            font-size:30px;
+        }
+        #submit3{
+            background-color:orange;
+            color: white;
+            border:5px solid black;
+            border-radius: 20px;
+            font-size:20px;
+            margin:2% 30%;
+            padding:10px 25px;
+        }
+
+
+        .box4{
+            width:20%;
+            padding:10px;
+            border:10px solid wheat;
+            border-radius:30px;
+            background-color:blue;
+            float:left;
+            margin:0 25px;
+        }
+
+        .box4 i{
+            background-color:rgba(255, 255, 255, 0.993);
+            color:blue;
+            font-size:65px;
+            border: 10px double black;
+            border-radius:100px;
+            padding:5px 15px;
+            margin:0 35%;
+        }
+
+        .box4 td,th{
+            padding:15px 10px;
+            
+        }
+        #blue{
+            color:blue;
+            font-size:30px;
+        }
+        #submit4{
+            background-color:blue;
+            color: white;
+            border:5px solid black;
+            border-radius: 20px;
+            font-size:20px;
+            margin:2% 30%;
+            padding:10px 25px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--Template created using table concept with internal CSS-->
+  <form method="POST">
+
+            <h1 align="center" style="color: white;">CCTV-Plans:</h1>
+         <fieldset class="main">
+                                                      <!--BOX1-->
+                   <div class="box1">
+
+                       <h2 align="center"> STARTER</h2>
+
+                       <i class="fas fa-american-sign-language-interpreting"></i>
+                    
+                       <table border="0" width="100%" cellspacing="0">
+                           <tr>
+                               <td colspan="2">  <!--only <hr> used inside <td> in seperate row<tr>-->
+                                   <hr>
+                               </td>
+                           </tr>
+
+                            <tr class="white">
+                                <td>24/7 support </td>
+                                <th> Yes</th>
+                            </tr>
+
+                            <tr class="white">
+                                <td>Real-time monitor</td>
+                                <th>No</th>
+                            </tr>
+
+                            <tr class="white">
+                                <td>Daily update</td>
+                                <th>No</th>
+                            </tr>
+
+                        
+                            <tr class="white">
+                                <th colspan="2" align="center"  id="red">   
+                                    $19/month   
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2">
+                                    
+                                    <hr>       <!--important step:<hr> used inside table's <td> or <th>..u cant use outside <tr>-->
+
+                                    <input type="submit" name="submit1" value="Purchase" id="submit1">
+                                </td>
+                            </tr>
+
+                       </table>
+
+                   </div> 
+                                                      <!--BOX2-->
+
+                   <div class="box2">
+
+                    <h2 align="center"> BASIC</h2>
+
+                    <i class="fas fa-cannabis"></i> 
+
+                    <table border="0" width="100%" cellspacing="0">
+                        <tr>
+                            <td colspan="2">  <!--only <hr> used inside <td> in seperate row<tr>-->
+                                <hr>
+                            </td>
+                        </tr>
+
+                         <tr class="white">
+                             <td>24/7 support--UNLIMITED DATA </td>
+                             <th> Yes</th>
+                         </tr>
+
+                         <tr class="white">
+                             <td>Real-time monitor</td>
+                             <th>No</th>
+                         </tr>
+
+                         <tr class="white">
+                             <td>Daily update</td>
+                             <th>No</th>
+                         </tr>
+
+                     
+                         <tr class="white">
+                             <th colspan="2" align="center" id="green" >   
+                                 $29/month   
+                             </th>
+                         </tr>
+
+                         <tr>
+                             <td colspan="2">
+                                 
+                                 <hr>       <!--important step:<hr> used inside table's <td> or <th>..u cant use outside <tr>-->
+
+                                 <input type="submit" name="submit2" value="Purchase" id="submit2">
+                             </td>
+                         </tr>
+
+                    </table>
+
+                </div> 
+
+                                                         <!--BOX3-->
+
+                <div class="box3">
+
+                    <h2 align="center"> MEDIUM</h2>
+
+                    <i class="fas fa-cog"></i>
+            
+                    <table border="0" width="100%" cellspacing="0">
+                        <tr>
+                            <td colspan="2">  <!--only <hr> used inside <td> in seperate row<tr>-->
+                                <hr>
+                            </td>
+                        </tr>
+
+                         <tr class="white">
+                             <td>24/7 support--UNLIMITED DATA </td>
+                             <th> Yes</th>
+                         </tr>
+
+                         <tr class="white">
+                             <td>Real-time monitor</td>
+                             <th>Yes</th>
+                         </tr>
+
+                         <tr class="white">
+                             <td>Daily update</td>
+                             <th>No</th>
+                         </tr>
+
+                     
+                         <tr class="white">
+                             <th colspan="2" align="center" id="orange" >   
+                                 $49/month   
+                             </th>
+                         </tr>
+
+                         <tr>
+                             <td colspan="2">
+                                 
+                                 <hr>       <!--important step:<hr> used inside table's <td> or <th>..u cant use outside <tr>-->
+
+                                 <input type="submit" name="submit3" value="Purchase" id="submit3">
+                             </td>
+                         </tr>
+
+                    </table>
+
+                </div> 
+
+                                    <!--BOX4-->
+
+                <div class="box4">
+
+                    <h2 align="center"> PREMIUM</h2>
+
+                    <i class="fas fa-gem"></i>
+
+                    <table border="0" width="100%" cellspacing="0">
+                        <tr>
+                            <td colspan="2">  <!--only <hr> used inside <td> in seperate row<tr>-->
+                                <hr>
+                            </td>
+                        </tr>
+
+                         <tr class="white">
+                             <td>24/7 support--UNLIMITED DATA </td>
+                             <th> Yes</th>
+                         </tr>
+
+                         <tr class="white">
+                             <td>Real-time monitor</td>
+                             <th>Yes</th>
+                         </tr>
+
+                         <tr class="white">
+                             <td>Daily update</td>
+                             <th>Yes</th>
+                         </tr>
+
+                     
+                         <tr class="white">
+                             <th colspan="2" align="center" id="blue" >   
+                                 $79/month   
+                             </th>
+                         </tr>
+
+                         <tr>
+                             <td colspan="2">
+                                 
+                                 <hr>       <!--important step:<hr> used inside table's <td> or <th>..u cant use outside <tr>-->
+
+                                 <input type="submit" name="submit4" value="Purchase" id="submit4">
+                             </td>
+                         </tr>
+
+                    </table>
+
+                </div> 
+                                            
+
+                                                                       
+            </fieldset>
+  </form>
+
+
+</body>
+
+</html>
